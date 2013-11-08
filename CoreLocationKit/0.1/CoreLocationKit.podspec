@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.platform		= :ios, '4.0'
   s.framework		= 'CoreLocation'
   s.source_files	= 'src/*.{h,m}'
-  s.requires_arc	= true
+  s.requires_arc	= false
 end
